@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+.syrt{
+    width: 400px;
+    height: 100px;
+    border: 2px solid brown;
+}
+.dom{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 100%;
+    animation: sultan 3s infinite;
+}
+
+@keyframes sultan {
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 300px;
+    }
+    100%{
+        left: 0;
+    }
+    
+}
